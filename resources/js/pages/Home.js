@@ -109,25 +109,19 @@ class Home extends Component {
             <div className="row">
               <div className="section-about col-lg-6 mb-4 mb-lg-0">
                 <div>
-                  <h2>Example To Do App</h2>
+                  <h2>Expresive React Development with deployment process in git actions</h2>
                   <p>
-                    Built with Laravel and React. Includes JWT auth,
-                    registration, login, routing and tests.
-                    {' '}
-                    <a href="https://wptheming.com/2019/02/building-a-react-app-on-laravel/">
-                      Learn more
-                    </a>
-                    .
+                    Build a set of characters with a set of simple rules and just some dice.
                   </p>
                   <p>
-                    <a href="https://github.com/devinsays/laravel-react-bootstrap">
-                      Source code and documentation on GitHub.
+                    <a href="https://github.com/JFChicken?tab=repositories">
+                      Source code and documentation on GitHub when published.
                     </a>
                   </p>
                 </div>
               </div>
               <div className="section-login col-lg-6">
-                <h4>Log in to the App</h4>
+                <h4>Log in to the Generator</h4>
 
                 <div className="card-login card mb-3">
                   <div className="card-body">
@@ -195,7 +189,7 @@ class Home extends Component {
                             'btn-loading': loading,
                           })}
                         >
-                          Sign In
+                          Jump In
                         </button>
                       </div>
 
