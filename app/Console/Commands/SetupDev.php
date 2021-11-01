@@ -56,9 +56,10 @@ class SetupDev extends Command
                     'DB_DATABASE='.env('DB_DATABASE'), 'DB_DATABASE='.database_path().'/database.sqlite', file_get_contents($path)
                 ));
 
-              $this->callSilently('migrate:fresh', [
-                '--seed'
-              ]);
+                // this isnt correct  but it is just stand in.
+              $this->callSilently('migrate:fresh');
+              // beed ti run some yarn
+
                 return 0;
             }
         }else{
